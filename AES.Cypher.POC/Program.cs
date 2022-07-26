@@ -22,31 +22,31 @@ namespace AES.Cypher.POC
 			string cipherText = EncryptDataWithAes(plainText, out string keyBase64, out string vectorBase64,
 				out string cipherTextBase64);
 
-			//Console.WriteLine("--------------------------------------------------------------");
-			//Console.WriteLine("Here is the cipher text:");
-			//Console.WriteLine(cipherTextBase64);
+			Console.WriteLine("--------------------------------------------------------------");
+			Console.WriteLine("Here is the cipher text:");
+			Console.WriteLine(cipherTextBase64);
 
 			Console.WriteLine("--------------------------------------------------------------");
 			Console.WriteLine("Here is the Aes key in Base64:");
 			Console.WriteLine(keyBase64);
 
-			//Console.WriteLine("--------------------------------------------------------------");
-			//Console.WriteLine("Here is the Aes IV in Base64:");
-			//Console.WriteLine(vectorBase64);
+			Console.WriteLine("--------------------------------------------------------------");
+			Console.WriteLine("Here is the Aes IV in Base64:");
+			Console.WriteLine(vectorBase64);
 
-			//Console.WriteLine("--------------------------------------------------------------");
-			//Console.WriteLine("Here is the Aes IV and cipher text combined as Base64:");
+			Console.WriteLine("--------------------------------------------------------------");
+			Console.WriteLine("Here is the Aes IV and cipher text combined as Base64:");
 			Console.WriteLine(cipherText);
 
-			//Console.WriteLine("--------------------------------------------------------------");
-			//Console.WriteLine();
-			//Console.WriteLine("Decryption");
-			//Console.WriteLine("--------------------------------------------------------------");
+			Console.WriteLine("--------------------------------------------------------------");
+			Console.WriteLine();
+			Console.WriteLine("Decryption");
+			Console.WriteLine("--------------------------------------------------------------");
 
 			string plainTextDecrypt = DecryptDataWithAes(cipherText, keyBase64, vectorBase64);
 
-			//Console.WriteLine("--------------------------------------------------------------");
-			//Console.WriteLine("Here is the decrypted data:");
+			Console.WriteLine("--------------------------------------------------------------");
+			Console.WriteLine("Here is the decrypted data:");
 			Console.WriteLine(plainTextDecrypt);
 			//}
 			Console.ReadLine();
