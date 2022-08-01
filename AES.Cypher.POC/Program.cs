@@ -5,11 +5,11 @@ using System.Security.Cryptography;
 Console.WriteLine("Welcome to the Aes Encryption Test tool");
 Console.WriteLine("Please enter the text that you want to encrypt:");
 string plainText = Console.ReadLine();
-
+string privateKey = "BPVhmLB5ZBlVB6uwGCnmIl7xJugawDHk6ARum0EfHms=";
 
 //for (int i = 0; i < 5; i++)
 //{
-string cipherText = EncryptDataWithAes(plainText, out string keyBase64, out string vectorBase64,
+string cipherText = EncryptDataWithAes(plainText, privateKey, out string keyBase64, out string vectorBase64,
     out string cipherTextBase64);
 
 Console.WriteLine("--------------------------------------------------------------");
@@ -60,15 +60,17 @@ Console.WriteLine(plainTextDecrypt);
 //}
 Console.ReadLine();
 
-static string EncryptDataWithAes(string plainText, out string keyBase64, out string vectorBase64,
+static string EncryptDataWithAes(string plainText, string privateKey, out string keyBase64, out string vectorBase64,
 	out string cipherTextBase64)
 {
 	using (Aes aesAlgorithm = Aes.Create())
 	{
-		Console.WriteLine($"Aes Cipher Mode : {aesAlgorithm.Mode}");
-		Console.WriteLine($"Aes Padding Mode: {aesAlgorithm.Padding}");
-		Console.WriteLine($"Aes Key Size : {aesAlgorithm.KeySize}");
-		Console.WriteLine($"Aes Block Size : {aesAlgorithm.BlockSize}");
+		aesAlgorithm.Key = Convert.FromBase64String(privateKey);
+		
+		// Console.WriteLine($"Aes Cipher Mode : {aesAlgorithm.Mode}");
+		// Console.WriteLine($"Aes Padding Mode: {aesAlgorithm.Padding}");
+		// Console.WriteLine($"Aes Key Size : {aesAlgorithm.KeySize}");
+		// Console.WriteLine($"Aes Block Size : {aesAlgorithm.BlockSize}");
 
 		//set the parameters with out keyword
 		keyBase64 = Convert.ToBase64String(aesAlgorithm.Key);
