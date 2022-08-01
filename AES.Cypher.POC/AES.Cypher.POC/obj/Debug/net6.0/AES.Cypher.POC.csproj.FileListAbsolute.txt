@@ -1,0 +1,15 @@
+/Users/kurtvanwestrene/Dev/AES.Cypher.POC/AES.Cypher.POC/bin/Debug/net6.0/AES.Cypher.POC
+/Users/kurtvanwestrene/Dev/AES.Cypher.POC/AES.Cypher.POC/bin/Debug/net6.0/AES.Cypher.POC.deps.json
+/Users/kurtvanwestrene/Dev/AES.Cypher.POC/AES.Cypher.POC/bin/Debug/net6.0/AES.Cypher.POC.runtimeconfig.json
+/Users/kurtvanwestrene/Dev/AES.Cypher.POC/AES.Cypher.POC/bin/Debug/net6.0/AES.Cypher.POC.dll
+/Users/kurtvanwestrene/Dev/AES.Cypher.POC/AES.Cypher.POC/bin/Debug/net6.0/AES.Cypher.POC.pdb
+/Users/kurtvanwestrene/Dev/AES.Cypher.POC/AES.Cypher.POC/obj/Debug/net6.0/AES.Cypher.POC.csproj.AssemblyReference.cache
+/Users/kurtvanwestrene/Dev/AES.Cypher.POC/AES.Cypher.POC/obj/Debug/net6.0/AES.Cypher.POC.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kurtvanwestrene/Dev/AES.Cypher.POC/AES.Cypher.POC/obj/Debug/net6.0/AES.Cypher.POC.AssemblyInfoInputs.cache
+/Users/kurtvanwestrene/Dev/AES.Cypher.POC/AES.Cypher.POC/obj/Debug/net6.0/AES.Cypher.POC.AssemblyInfo.cs
+/Users/kurtvanwestrene/Dev/AES.Cypher.POC/AES.Cypher.POC/obj/Debug/net6.0/AES.Cypher.POC.csproj.CoreCompileInputs.cache
+/Users/kurtvanwestrene/Dev/AES.Cypher.POC/AES.Cypher.POC/obj/Debug/net6.0/AES.Cypher.POC.dll
+/Users/kurtvanwestrene/Dev/AES.Cypher.POC/AES.Cypher.POC/obj/Debug/net6.0/refint/AES.Cypher.POC.dll
+/Users/kurtvanwestrene/Dev/AES.Cypher.POC/AES.Cypher.POC/obj/Debug/net6.0/AES.Cypher.POC.pdb
+/Users/kurtvanwestrene/Dev/AES.Cypher.POC/AES.Cypher.POC/obj/Debug/net6.0/AES.Cypher.POC.genruntimeconfig.cache
+/Users/kurtvanwestrene/Dev/AES.Cypher.POC/AES.Cypher.POC/obj/Debug/net6.0/ref/AES.Cypher.POC.dll
